@@ -44,6 +44,7 @@ body{
         background: rgb(250, 235, 215, 0.9);
         position: fixed;
         border-radius: 5px;
+        top: 2%;
     }
     
     #nav-bar{
@@ -73,7 +74,7 @@ body{
         font-weight: bold;
         font-size: 60px;
         color: #5e3a8e;
-        margin:30px 30px 10px 30px;
+        margin:100px 30px 10px 30px;
     
     }
 
