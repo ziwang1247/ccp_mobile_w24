@@ -4,7 +4,7 @@ body{
     margin: 5%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 1em;
+    font-size: 18px;
 }
 
 #skip-to-main-content{
@@ -45,6 +45,8 @@ body{
         position: fixed;
         border-radius: 5px;
         top: 2%;
+        left: 50%;
+        transform: translate(-50%, 0);
     }
     
     #nav-bar{
@@ -169,28 +171,22 @@ body{
 /* tablet&laptop screen */
 @media screen and (min-width: 768px) {
 
-    #nav-bar{
-        margin: 40px 150px;
-        font-size: 25px;
-        font-weight: bold;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: center;
-        align-items: center;
+    nav{
+        width: 80%;
     }
     
-    li{
-        display: inline;
-        margin: 0 30px;
-      }
-    
+    #nav-bar a:hover, #nav-bar a:active, .current-link{
+        background: #7b3968;
+        color: aliceblue;
+        padding:10px;
+    }
     
     h1{
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-weight: bold;
         font-size: 60px;
         color: #5e3a8e;
-        margin:20px;
+        margin-top:150px;
     
     }
      
@@ -208,6 +204,26 @@ body{
          
      }
      
+    .ingredients-container{
+        text-align: center;
+    }
+
+    .step-container{
+        text-align: center;
+    }
+
+    .photo-gallery{
+        width:50%;
+        margin: 3% auto;
+    }
+
+    h3{
+        margin: 40px 0 0 0;
+    }
+    
+    .list-container{
+        margin: 10px 0;
+    }
 
   }
     
