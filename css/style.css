@@ -148,10 +148,10 @@ body{
     }
 
     .list-container li{
-        display: inline-block;
+        display: block;
         margin: 0 10px;
         line-height: 1.5;
-        text-decoration: underline;
+        font-style: italic;
     }
 
     .quote{
