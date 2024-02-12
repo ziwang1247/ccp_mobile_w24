@@ -32,6 +32,11 @@ body{
     z-index: 1;
   }
 
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .sloth{
     background: rgb(255, 197, 162);
 }
