@@ -60,8 +60,7 @@ a{
         font-weight: bold;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        justify-content: center;
-        align-items: center;
+        gap:3vw;
     }
     
     #nav-bar li{
