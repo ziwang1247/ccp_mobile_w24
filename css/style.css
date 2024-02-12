@@ -71,6 +71,7 @@ a{
     #nav-bar a:hover, #nav-bar a:active, .current-link{
         background: #7b3968;
         color: aliceblue;
+        font-weight: bold;
     }
 
     
