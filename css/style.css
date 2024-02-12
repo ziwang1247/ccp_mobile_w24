@@ -61,6 +61,8 @@ a{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap:3vw;
+        align-items: center;
+        justify-content: center;
     }
     
     #nav-bar li{
